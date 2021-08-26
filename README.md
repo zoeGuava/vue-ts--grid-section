@@ -1,39 +1,11 @@
 # template-vite-vue-ts-tailwind-jit
 
+- Vitawind: https://vitawind-blog.vercel.app/scaffolding/templates.html#typescript-for-vue
 - **template of:** vite + vue + typescript
 - **tailwindcss:** v2.2.7
 
-## Started
-with npm:
-```bash
-npm install
-```
-with yarn:
-```bash
-yarn
-```
-
----
-## Develop
-with npm:
-```bash
-npm run dev
-```
-with yarn:
-```bash
-yarn dev
-```
-
----
-## Build
-with npm:
-```bash
-npm run build
-```
-with yarn:
-```bash
-yarn build
-```
+## Front mentor
+Testimonials grid section: https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7
 
 ---
 <p align="center">

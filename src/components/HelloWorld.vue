@@ -61,7 +61,8 @@ export default defineComponent({
       required: true,
     },
   },
-  setup: () => {
+  setup: (props) => {
+    console.log('prop: ', props);
     const count = ref(0);
     return { count };
   },

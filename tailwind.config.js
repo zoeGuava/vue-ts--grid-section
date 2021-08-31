@@ -5,7 +5,11 @@ module.exports = {
   purge: ['index.html','./src/**/*.{js,jsx,ts,tsx,vue,html}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        violet: 'hsl(263, 55%, 52%)'
+      }
+    },
   },
   plugins: [],
 }

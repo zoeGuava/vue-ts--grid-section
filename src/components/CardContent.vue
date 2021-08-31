@@ -1,15 +1,16 @@
 <template>
-  {{msg}}
+  <p>{{content}}</p>
 </template>
 
 <script lang="ts">
 import { ref, defineComponent } from "vue";
 
 export default defineComponent({
-  name: "CardSlogan",
-  setup() {
-    const msg = ref('content');
-    return { msg };
+  name: "CardContent",
+  props: ['data'],
+  setup(props) {
+    const content = props.data;
+    return { content };
   },
 });
 </script>

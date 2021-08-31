@@ -1,5 +1,13 @@
 <template>
-  {{msg}}
+  <header class="flex items-center space-x-4">
+    <img
+      class="w-10 rounded-full"
+      :src="img" :alt="name">
+    <div class="flex flex-col justify-center">
+      <p>{{ name }}</p>
+      <p class="opacity-50">{{ status }}</p>
+    </div>
+  </header>
 </template>
 
 <script lang="ts">
@@ -7,9 +15,15 @@ import { ref, defineComponent } from "vue";
 
 export default defineComponent({
   name: "CardHeader",
-  setup() {
-    const msg = ref('card header');
-    return { msg };
+  props: ['data'],
+  setup(props) {
+    interface HEADER_TYPE {
+      name:String;
+      status:String;
+      img: String;
+    }
+    const { name, status, img }:HEADER_TYPE = props.data;
+    return { name, status, img };
   },
 });
 </script>

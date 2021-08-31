@@ -1,5 +1,5 @@
 <template>
-  {{msg}}
+  <h1>{{slogan}}</h1>
 </template>
 
 <script lang="ts">
@@ -7,9 +7,14 @@ import { ref, defineComponent } from "vue";
 
 export default defineComponent({
   name: "CardSlogan",
-  setup() {
-    const msg = ref('slogannnnnn');
-    return { msg };
+  props: {
+    data: {
+      type: String,
+    }
+  },
+  setup(props) {
+    const slogan = props.data;
+    return { slogan };
   },
 });
 </script>

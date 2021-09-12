@@ -1,5 +1,7 @@
 <template>
-  <p>{{content}}</p>
+  <p class="text-content leading-snug opacity-70">
+    “ {{content}} ”
+  </p>
 </template>
 
 <script lang="ts">

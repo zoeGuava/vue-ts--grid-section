@@ -1,5 +1,5 @@
 <template>
-  <h1>{{slogan}}</h1>
+  <h1 class="text-white leading-tight text-2xl font-semibold	">{{slogan}}</h1>
 </template>
 
 <script lang="ts">

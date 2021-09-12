@@ -1,11 +1,11 @@
 <template>
-  <header class="flex items-center space-x-4">
+  <header class="mb-[18px] flex items-center space-x-4">
     <img
       class="w-10 rounded-full"
       :src="img" :alt="name">
     <div class="flex flex-col justify-center">
-      <p>{{ name }}</p>
-      <p class="opacity-50">{{ status }}</p>
+      <p class="mb-1 text-white leading-none">{{ name }}</p>
+      <p class="text-xs leading-none text-white opacity-50">{{ status }}</p>
     </div>
   </header>
 </template>

@@ -1,9 +1,13 @@
 <template>
-  <ul class="container px-5 py-14 space-y-10">
-    <template v-for="(data, index) of card_data" :key="index">
-      <Card :data="data" />
-    </template>
-  </ul>
+  <div class="xl:flex xl:h-screen xl:items-center xl:justify-center w-full">
+    <ul class="
+      xl-layout xl:space-y-0
+      px-[32px] py-[26px] space-y-10">
+      <template v-for="(data, index) of card_data" :key="index">
+        <Card :data="data" />
+      </template>
+    </ul>
+  </div>
   <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite + Tailwind jit" /> -->
 </template>
 

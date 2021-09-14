@@ -8,12 +8,10 @@
       </template>
     </ul>
   </div>
-  <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite + Tailwind jit" /> -->
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-// import HelloWorld from './components/HelloWorld.vue'
 import Card from './components/Card.vue'
 import { CARD_DATA } from './components/card-data.js'
 

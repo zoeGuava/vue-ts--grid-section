@@ -1,5 +1,5 @@
 <template>
-  <li class="card-group shadow-card p-8 rounded-[8px]">
+  <li class="card-group relative shadow-card p-8 rounded-[8px]">
     <CardHeader :data="header" />
     <CardSlogan :data="slogan" />
     <CardContent :data="content" />

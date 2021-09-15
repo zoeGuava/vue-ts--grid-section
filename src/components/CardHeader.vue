@@ -17,12 +17,7 @@ export default defineComponent({
   name: "CardHeader",
   props: ['data'],
   setup(props) {
-    interface HEADER_TYPE {
-      name:String;
-      status:String;
-      img: String;
-    }
-    const { name, status, img }:HEADER_TYPE = props.data;
+    const { name, status, img } = props.data;
     return { name, status, img };
   },
 });

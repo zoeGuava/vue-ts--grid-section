@@ -13,12 +13,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Card from './components/Card.vue'
-import { CARD_DATA } from './components/card-data.js'
+import { CARD_DATA } from './components/card-data'
 
 export default defineComponent({
   name: 'App',
   components: {
-    // HelloWorld,
     Card
   },
   setup() {

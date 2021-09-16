@@ -1,4 +1,6 @@
-export const CARD_DATA = [
+import { CardSpec } from './card-spec';
+
+export const CARD_DATA:CardSpec[] = [
   {
     header: {
       name: 'Daniel Clifford',

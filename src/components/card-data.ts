@@ -1,9 +1,9 @@
 import { CardSpec } from './card-spec';
-import Daniel from '../../public/images/image-daniel.jpg';
-import Jonathan from '../../public/images/image-jonathan.jpg';
-import Jeanette from '../../public/images/image-jeanette.jpg';
-import Patrick from '../../public/images/image-patrick.jpg';
-import KiraUrl from '../../public/images/image-kira.jpg';
+import Daniel from '/images/image-daniel.jpg';
+import Jonathan from '/images/image-jonathan.jpg';
+import Jeanette from '/images/image-jeanette.jpg';
+import Patrick from '/images/image-patrick.jpg';
+import KiraUrl from '/images/image-kira.jpg';
 
 export const CARD_DATA:CardSpec[] = [
   {

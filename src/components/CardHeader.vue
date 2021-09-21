@@ -18,7 +18,8 @@ export default defineComponent({
   props: ['data'],
   setup(props) {
     const { name, status, img } = props.data;
+    console.log('imgUrl: ' + img);
     return { name, status, img };
-  },
+  }
 });
 </script>
